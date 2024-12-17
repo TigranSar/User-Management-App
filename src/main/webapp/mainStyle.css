@@ -1,0 +1,121 @@
+body{
+	background: #f3f3f3;
+}
+header{
+	position: fixed;
+	display: flex;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+	height: 70px;
+    background-color: #394f61;
+    vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	color: #f3f3f3;
+}
+a:hover{
+	color: #dde5eb;
+}
+*{
+	font-style: normal;
+	font-family: Arial;
+}
+header .users a{
+	position: fixed;
+	top: 27px;
+	right: 40px;
+	font-style: normal;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+header .logo a{
+	transition: color .2s,background-color .2s;
+	text-align: center;
+	position: fixed;
+	top: 20px;
+	left: 80px;
+	font-size: 17pt;
+	font-style: normal;
+	font-weight: bold;
+	font-family: Arial;
+	letter-spacing: 1px;
+}
+.lister h1{
+	text-align: center;
+	font-size: 20pt;
+    color: 	#233747;
+}
+.lister {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
+	border-bottom: 1px solid #c7c9cb;
+	width: 1000px;
+	height: 50px;
+	margin-top: 100px;
+}
+.add_user{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 1000px;
+	height: 40px;
+}
+.add_user a{
+	color: white;
+	background-color: #2d85a7;
+	transition: color .2s,background-color .2s;
+	padding: 14px 23px;
+	border-radius: 3px;
+}
+.add_user a:hover{
+	background-color: #297795;
+}
+.user_table{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	width: 1018px;
+	height: 400px;
+	background-color: transparent;	
+    overflow: auto;
+}
+.user_table .whole_table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	border: 0px solid #394f61;
+	background-color: #dfdfdf;
+}
+
+.user_table .whole_table tbody, thead{
+	color: #233747;
+	background-color: white;
+	height: 50px;
+}
+.user_table .whole_table tbody{
+	text-align: center;
+}
+td, th {
+	width: 200px;
+    height: 50px;
+	max-width: 300px;
+	overflow: auto;
+}
+.edit_row, .delete_line{
+	color: #4a6fff;
+	transition: color .2s,background-color .2s;
+}
+.edit_row{
+	margin-right: 20px;
+}
+.delete_line{
+	margin-left: 20px;
+}
+.edit_row:hover, .delete_line:hover {
+	color: #2f4cbd;
+}

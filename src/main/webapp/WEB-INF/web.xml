@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <servlet>
+        <servlet-name>AddUser</servlet-name>
+        <servlet-class>com.example.testpage.controller.AddUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUser</servlet-name>
+        <url-pattern>/add_user</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteLine</servlet-name>
+        <servlet-class>com.example.testpage.controller.DeleteLineServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteLine</servlet-name>
+        <url-pattern>/delete_line</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EditData</servlet-name>
+        <servlet-class>com.example.testpage.controller.EditDataServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditData</servlet-name>
+        <url-pattern>/edit_data</url-pattern>
+    </servlet-mapping>
+</web-app>
