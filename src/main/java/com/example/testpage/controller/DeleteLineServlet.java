@@ -22,8 +22,4 @@ public class DeleteLineServlet extends HttpServlet {
         userDAO.delete(id);
         resp.sendRedirect("index.jsp");
     }
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-    }
 }
